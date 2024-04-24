@@ -1,0 +1,92 @@
+.navbar{
+    height: calc(100% - 100px);
+    flex-direction: column;
+    height: 348px;
+}
+.navbar img{
+    margin-top: 40px;
+    height: 90px;
+}
+.tags{
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.tags .smtg {
+    
+    font-size: 20px;
+    gap: 10px;
+
+}
+.tags a{
+    padding: 3px;
+}
+.wlcm{
+    margin-top: 25px;
+    font-size:10px ;
+}
+.name {
+    font-size: 15px;
+}
+.legacy{
+    font-size: 30px;
+    margin-left: 8px;
+}
+.empwr{
+    font-size: 15px;
+}
+.learn{
+    font-size: 15px;
+}
+#aboutus{
+    height: 375px;
+}
+#aboutus p{
+    font-size: 10px;
+    line-height: 19.5px;
+}
+.about{
+    font-size:15px ;
+   
+}
+h1{
+    font-size: 15px;
+}
+#ftr1 {
+    height: 232px;
+    flex-wrap: wrap;
+}
+footer{
+    height: 30px;
+    width: 100%
+}
+
+footer span{
+    
+    font-size: 10px;
+    margin-right: 10%;
+}
+
+.icon{
+    
+    margin-top: 1px;
+    margin-right:30%;
+    font-size: 15px;
+}
+.front{
+    height: 100px;
+    width: 120px;
+   
+}
+.pencil{
+    height: 100px;
+    width: 120px;
+}
+.ncc{
+    height: 100px;
+    width: 120px;
+}
+
+.rights{
+    font-size: 10px;
+    margin-top:2px;
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#bgimage{
+    background: url('hand-drawn-back-school-background_23-2149464866.avif') no-repeat center center/cover;
+   margin-top: -5px;
+   
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    height: 100px;
+    width: 100%;
+   
+    margin-top: 5px;
+
+}
+
+.navbar img{
+
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.name {
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+.logo img {
+    height: 6.5rem;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.tags {
+    margin-left: 20%;
+}
+
+.tags .smtg {
+    margin-right: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    
+
+}
+
+.tags a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(228, 16, 58);
+    border-radius: 20px;
+}
+.tags a:hover{
+   color: black;
+   background-color: white;
+   
+}
+
+.legacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    color: rgb(110, 60, 157);
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.empwr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    margin-top: 20px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.learn i {
+    font-size: 25px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+}
+
+#aboutus {
+    height: 260px;
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(154, 177, 116);
+}
+
+#aboutus p {
+    margin-top: 40px;
+    font-family: "Anton", sans-serif;
+    margin: 10px;
+    line-height: 25px;
+}
+
+#ftr1 {
+
+    display: flex;
+    height: 250px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#ftr1 img {
+    margin-top: 10px;
+}
+
+h1 {
+
+    display: flex;
+    background-color: aquamarine;
+
+    align-items: center;
+    justify-content: center;
+    font-family: "Lugrasimo", cursive;
+}
+
+.ncc {
+    height: 195px;
+    width: 251px;
+}
+
+.pencil {
+    height: 195px;
+}
+footer{
+    background-color: coral;
+}
+footer span{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.icon{
+    font-size: 40px;
+    display: flex;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: 232px;
+    align-items: center;
+   flex-direction: row;
+   gap:21px;
+    cursor: pointer;
+}
+.rights{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
